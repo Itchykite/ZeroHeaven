@@ -76,10 +76,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\include;D:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\include;F:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\include;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\lib\x64;D:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\lib\x64;F:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\lib\x64;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL3.lib;SDL3_test.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -90,12 +94,16 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\include;D:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\include;F:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\include;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\lib\x64;D:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\lib\x64;F:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\lib\x64;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL3.lib;SDL3_test.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -104,13 +112,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\lib\glew-2.1.0\include;C:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\include;D:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\include;F:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\include;C:\lib\glew-2.1.0\include;C:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\lib\glew-2.1.0\lib\Release\x64;C:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glew32.lib;glew32s.lib;SDL3.lib;SDL3_test.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\lib\x64;D:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\lib\x64;F:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\lib\x64;C:\lib\glew-2.1.0\lib\Release\x64;C:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL3.lib;SDL3_test.lib;glew32.lib;glew32s.lib;SDL3.lib;SDL3_test.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -121,12 +130,16 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\include;D:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\include;F:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\include;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\lib\x64;D:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\lib\x64;F:\lib\SDL3-devel-3.2.0-VC\SDL3-3.2.0\lib\x64;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL3.lib;SDL3_test.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

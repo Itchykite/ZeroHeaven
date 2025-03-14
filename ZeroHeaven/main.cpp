@@ -3,7 +3,6 @@
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
 #include <SDL3/SDL_init.h>
-#include <GL/glew.h>
 
 static SDL_Window* window = nullptr;
 static SDL_Renderer* renderer = nullptr;
