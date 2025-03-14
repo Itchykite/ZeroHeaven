@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cyran\\source\\repos\\ZeroHeaven\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\cyran\\source\\repos\\Itchykite\\ZeroHeaven\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58B1FAE3-EC2E-4F70-837A-C85AA2161ADA}|ZeroHeaven\\ZeroHeaven.vcxproj|C:\\Users\\cyran\\source\\repos\\Itchykite\\ZeroHeaven\\ZeroHeaven\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{58B1FAE3-EC2E-4F70-837A-C85AA2161ADA}|ZeroHeaven\\ZeroHeaven.vcxproj|solutionrelative:ZeroHeaven\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 996,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +31,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\cyran\\source\\repos\\Itchykite\\ZeroHeaven\\ZeroHeaven\\main.cpp",
+              "RelativeDocumentMoniker": "ZeroHeaven\\main.cpp",
+              "ToolTip": "C:\\Users\\cyran\\source\\repos\\Itchykite\\ZeroHeaven\\ZeroHeaven\\main.cpp",
+              "RelativeToolTip": "ZeroHeaven\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-14T08:32:47.586Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
