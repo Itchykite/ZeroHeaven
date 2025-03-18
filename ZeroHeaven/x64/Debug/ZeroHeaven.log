@@ -1,2 +1,3 @@
 ﻿  main.cpp
-  ZeroHeaven.vcxproj -> C:\Users\cyran\source\repos\Itchykite\ZeroHeaven\x64\Debug\ZeroHeaven.exe
+  LINK : nie znaleziono elementu C:\Users\cyran\source\repos\Mario-Brothers\ZeroHeaven\x64\Debug\ZeroHeaven.exe ani nie został on skompilowany podczas ostatniego konsolidowania przyrostowego; zostanie wykonana pełna konsolidacja
+LINK : fatal error LNK1104: nie można otworzyć pliku „glew32.lib”
